@@ -1,9 +1,5 @@
-const path = require('path')
-
-
 module.exports = {
   title: 'Davis 前端知识体系',
-  dest: path.resolve(__dirname, 'dist'),  // 设置输出目录
   base: '/Frontend-knowledge-system/',// 设置站点根路径
   description: '整理自己的前端知识体系的小博客',
   head: [
