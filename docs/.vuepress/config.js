@@ -1,6 +1,6 @@
 module.exports = {
   title: 'Davis 前端知识体系',
-  base: '/Frontend-knowledge-system/',// 设置站点根路径
+  // base: '/Frontend-knowledge-system/',// 设置站点根路径
   description: '整理自己的前端知识体系的小博客',
   head: [
     ['link', { rel: 'icon', href: '/logo.png' }],
