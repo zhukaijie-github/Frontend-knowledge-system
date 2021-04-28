@@ -1,5 +1,6 @@
 module.exports = {
   title: 'Davis 前端知识体系',
+  base: '/Frontend-knowledge-system',
   description: '整理自己的前端知识体系的小博客',
   head: [
     ['link', { rel: 'icon', href: '/logo.png' }],
