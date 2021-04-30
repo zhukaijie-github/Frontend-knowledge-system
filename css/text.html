@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>文本属性 | Davis 前端知识体系</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    <link rel="icon" href="/Frontend-knowledge-system/logo.png">
+    <link rel="manifest" href="/Frontend-knowledge-system/manifest.json">
+    <meta name="description" content="整理自己的前端知识体系的小博客">
+    
+    <link rel="preload" href="/Frontend-knowledge-system/assets/css/0.styles.cc17c794.css" as="style"><link rel="preload" href="/Frontend-knowledge-system/assets/js/app.2c4bb8c1.js" as="script"><link rel="preload" href="/Frontend-knowledge-system/assets/js/2.41c9944a.js" as="script"><link rel="preload" href="/Frontend-knowledge-system/assets/js/11.860a5a96.js" as="script"><link rel="prefetch" href="/Frontend-knowledge-system/assets/js/10.61e143f1.js"><link rel="prefetch" href="/Frontend-knowledge-system/assets/js/12.a2ed5891.js"><link rel="prefetch" href="/Frontend-knowledge-system/assets/js/13.cae18421.js"><link rel="prefetch" href="/Frontend-knowledge-system/assets/js/14.e7f3cfd9.js"><link rel="prefetch" href="/Frontend-knowledge-system/assets/js/3.95796f63.js"><link rel="prefetch" href="/Frontend-knowledge-system/assets/js/4.e05c873c.js"><link rel="prefetch" href="/Frontend-knowledge-system/assets/js/5.33233bc0.js"><link rel="prefetch" href="/Frontend-knowledge-system/assets/js/6.498ab014.js"><link rel="prefetch" href="/Frontend-knowledge-system/assets/js/7.3f5168c2.js"><link rel="prefetch" href="/Frontend-knowledge-system/assets/js/8.046e77a3.js"><link rel="prefetch" href="/Frontend-knowledge-system/assets/js/9.a662cca2.js">
+    <link rel="stylesheet" href="/Frontend-knowledge-system/assets/css/0.styles.cc17c794.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/Frontend-knowledge-system/" class="home-link router-link-active"><!----> <span class="site-name">Davis 前端知识体系</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/Frontend-knowledge-system/html/" class="nav-link">
+  html
+</a></div><div class="nav-item"><a href="/Frontend-knowledge-system/css/text.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  css
+</a></div><div class="nav-item"><a href="/Frontend-knowledge-system/javascript/" class="nav-link">
+  javascript
+</a></div><div class="nav-item"><a href="https://github.com/zhukaijie-github/Frontend-knowledge-system" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/Frontend-knowledge-system/html/" class="nav-link">
+  html
+</a></div><div class="nav-item"><a href="/Frontend-knowledge-system/css/text.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  css
+</a></div><div class="nav-item"><a href="/Frontend-knowledge-system/javascript/" class="nav-link">
+  javascript
+</a></div><div class="nav-item"><a href="https://github.com/zhukaijie-github/Frontend-knowledge-system" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>CSS</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/Frontend-knowledge-system/css/text.html" aria-current="page" class="active sidebar-link">文本属性</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/Frontend-knowledge-system/css/text.html#字体" class="sidebar-link">字体</a></li><li class="sidebar-sub-header"><a href="/Frontend-knowledge-system/css/text.html#文本" class="sidebar-link">文本</a></li></ul></li><li><a href="/Frontend-knowledge-system/css/size.html" class="sidebar-link">尺寸</a></li><li><a href="/Frontend-knowledge-system/css/selector.html" class="sidebar-link">选择器</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="文本属性"><a href="#文本属性" class="header-anchor">#</a> 文本属性</h1> <h2 id="字体"><a href="#字体" class="header-anchor">#</a> 字体</h2> <ol><li>font-family</li></ol> <div class="language- extra-class"><pre class="language-text"><code>.p1 {
+  font-family: &quot;Times New Roman&quot;, Times, serif;
+}
+</code></pre></div><p>可以使用@font-face 自定义字体</p> <div class="language- extra-class"><pre class="language-text"><code>@font-face: {
+  font-family: 'my font';
+  src: url('/fonts/my.woff2') format('woff2'),
+       url('/fonts/my.woff') format('woff);
+}
+</code></pre></div><ol start="2"><li><p>font-size<br>
+字体大小，单位可以是px, em , rem, vw, vh等</p></li> <li><p>font-style 字体样式，属性主要用于指定斜体文本<br>
+此属性可设置三个值：</p></li></ol> <div class="language- extra-class"><pre class="language-text"><code>    - normal - 文字正常显示
+    - italic - 文本以斜体显示
+    - oblique - 文本为“倾斜”（倾斜与斜体非常相似，但支持较少）
+</code></pre></div><ol start="4"><li>font-weight 设置字体粗细</li></ol> <div class="language- extra-class"><pre class="language-text"><code>    font-weight:  normal; 默认
+                  bold; 粗
+                  bolder; 更粗
+                  lighter; 更细
+                  inherit; 继承父元素
+                  100~900; 数字表示粗细
+</code></pre></div><h2 id="文本"><a href="#文本" class="header-anchor">#</a> 文本</h2> <blockquote><p>主要列一下在开发中经常用到的</p></blockquote> <ol><li>text-align 对齐</li></ol> <div class="language- extra-class"><pre class="language-text"><code>  text-align: left;
+              right;
+              center;
+              justify; 文本两端对齐，使每一行具有相等的宽度，并且左右边距是直的
+</code></pre></div><ol start="2"><li>文本方向</li></ol> <div class="language- extra-class"><pre class="language-text"><code>  p {
+    direction: ltr; // 左方向
+               rtl; // 右方向
+               inherit; // 继承
+    unicode-bidi: normal | embed | bidi-override | isolate | isolate-override | plaintext | inherit
+  }
+
+</code></pre></div><ol start="3"><li>装饰 text-decoration
+有以下三个属性
+<ul><li>text-decoration-color</li> <li>text-decoration-style</li> <li>text-decoration-line</li></ul></li></ol> <div class="language- extra-class"><pre class="language-text"><code>  text-decoration:  none	默认。定义标准的文本。
+                    underline	定义文本下的一条线。
+                    overline	定义文本上的一条线。
+                    line-through	定义穿过文本下的一条线。
+                    blink	定义闪烁的文本。
+                    inherit	规定应该从父元素继承 text-decoration 属性的值。
+
+  p {
+    text-decoration: none;                     /*没有文本装饰*/
+    text-decoration: underline red;            /*红色下划线*/
+    text-decoration: underline wavy red;       /*红色波浪形下划线*/
+  }
+</code></pre></div><ol start="4"><li>文本转换<br>
+大小写或者首字母大写</li></ol> <div class="language- extra-class"><pre class="language-text"><code>  p {
+    text-transform: none	默认。定义带有小写字母和大写字母的标准的文本。
+                    capitalize	文本中的每个单词以大写字母开头。
+                    uppercase	大写字母。
+                    lowercase	小写字母。
+                    inherit	规定应该从父元素继承 text-transform 属性的值。
+  }
+</code></pre></div><ol start="5"><li>文本缩进</li></ol> <div class="language- extra-class"><pre class="language-text"><code>  p {
+    text-indent: 20px; 固定值
+                 20%; 百分比
+                 inherit; 继承父元素
+  }
+</code></pre></div><ol start="6"><li>颜色</li></ol> <div class="language- extra-class"><pre class="language-text"><code>  p {
+    color: #fffff; // 16进制数
+           rgb(255,255,255); // rgb形式
+           rgba(255,255,255, 0.8); // rgba形式
+  }
+</code></pre></div><ol start="7"><li>字符间距</li></ol> <div class="language- extra-class"><pre class="language-text"><code>  p {
+    letter-spacing: normal; 没有间距
+                    12px; 数值，可以是负数-12px
+                    inherit; 继承
+  }
+</code></pre></div><ol start="8"><li>指定元素内的空白处理 white-space</li></ol> <div class="language- extra-class"><pre class="language-text"><code>  p {
+    white-space: pre; // 保留空白
+                 nowrap; // 文本不会换行，直到遇到&lt;br /&gt;才会换行
+                 pre-wrap; // 保留空白，正常换行
+                 pre-line; // 合并空白序列，保留换行
+                 inherit; // 继承
+  }
+</code></pre></div><ol start="9"><li>单词间距 word-spacing</li></ol> <div class="language- extra-class"><pre class="language-text"><code>  p {
+    word-spacing: normal; 没有间距
+                  12px; 数值，可以是负数-12px
+                  inherit; 继承
+  }
+</code></pre></div><ol start="10"><li>word-break 指定了怎样在单词内断行。</li></ol> <div class="language- extra-class"><pre class="language-text"><code>  p {
+    word-break: normal; // 默认
+                break-all; // 对于non-CJK (CJK 指中文/日文/韩文) 文本，可在任意字符间断行。
+                break-word; // 将在文本可能溢出其容器的确切位置创建一个断点
+                keep-all; // CJK 文本不断行。 Non-CJK 文本表现同 normal。
+  }
+</code></pre></div><ol start="11"><li>word-wrap  （overflow-wrap  在CSS 3 中被重命名为overflow-wrap）<br>
+是用来说明当一个不能被分开的字符串太长而不能填充其包裹盒时，为防止其溢出，浏览器是否允许这样的单词中断换行</li></ol> <div class="language- extra-class"><pre class="language-text"><code>  p {
+    word-wrap: normal	只在允许的断字点换行（浏览器保持默认处理）。
+               break-word	在长单词或 URL 地址内部进行换行。
+  }
+</code></pre></div><ol start="12"><li>line-height  行高</li></ol> <div class="language- extra-class"><pre class="language-text"><code>  p {
+    line-height: 12px; // 具体数值
+                  1.5; // 字体大小的倍数
+                  20%; // 基于字体大小的百分百
+                  inherit; // 继承
+  }
+</code></pre></div><ol start="13"><li>verctical-align 垂直对齐, 基于<strong>inline, inline-block</strong> 和 <strong>table-cell</strong> 的元素
+<a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/vertical-align" target="_blank" rel="noopener noreferrer">参考资料<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ol> <div class="language- extra-class"><pre class="language-text"><code>  p {
+    display: inline-block;
+    verctical-align:  baseline	默认。元素放置在父元素的基线上。
+                      sub	垂直对齐文本的下标。
+                      super	垂直对齐文本的上标
+                      top	把元素的顶端与行中最高元素的顶端对齐
+                      text-top	把元素的顶端与父元素字体的顶端对齐
+                      middle	把此元素放置在父元素的中部。
+                      bottom	使元素及其后代元素的底部与整行的底部对齐。
+                      text-bottom	把元素的底端与父元素字体的底端对齐。
+                      length	将元素升高或降低指定的高度，可以是负数。
+                      %	使用 &quot;line-height&quot; 属性的百分比值来排列此元素。允许使用负值。
+                      inherit	规定应该从父元素继承 vertical-align 属性的值。
+  }
+</code></pre></div><ol start="14"><li>text-overflow  向用户发出未显示的溢出内容信号</li></ol> <div class="language- extra-class"><pre class="language-text"><code>  // 一行溢出
+  p {
+    overflow:hidden; //超出的文本隐藏
+    text-overflow:ellipsis; //溢出用省略号显示
+    white-space:nowrap; //溢出不换行
+  }
+
+  // 两行溢出
+  p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box; //作为弹性伸缩盒子模型显示。
+    -webkit-box-orient: vertical; //设置伸缩盒子的子元素排列方式--从上到下垂直排列
+    -webkit-line-clamp: 2; //显示的行
+  }
+
+  p {
+    text-overflow:  clip	修剪文本。
+                    ellipsis	显示省略符号来代表被修剪的文本。
+                    string	使用给定的字符串来代表被修剪的文本。
+  }
+</code></pre></div><ol start="15"><li>text-shadow 文本阴影</li></ol> <div class="language- extra-class"><pre class="language-text"><code>  p {
+    text-shadow:  h-shadow	必需。水平阴影的位置。允许负值。
+                  v-shadow	必需。垂直阴影的位置。允许负值。
+                  blur	可选。模糊的距离。
+                  color
+  }
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><!----> <span class="next"><a href="/Frontend-knowledge-system/css/size.html">
+        尺寸
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/Frontend-knowledge-system/assets/js/app.2c4bb8c1.js" defer></script><script src="/Frontend-knowledge-system/assets/js/2.41c9944a.js" defer></script><script src="/Frontend-knowledge-system/assets/js/11.860a5a96.js" defer></script>
+  </body>
+</html>
