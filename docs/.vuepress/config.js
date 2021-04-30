@@ -6,10 +6,11 @@ module.exports = {
     ['link', { rel: 'icon', href: '/logo.png' }],
     ['link', { rel: 'manifest', href: '/manifest.json' }],
   ],
+  // theme: '@vuepress/theme-vue',
   themeConfig: {
     nav: [
       { text: 'html', link: '/html/' },
-      { text: 'css', link: '/css/' },
+      { text: 'css', link: '/css/text' },
       { text: 'javascript', link: '/javascript/' },
       { text: 'Github', link: 'https://github.com/zhukaijie-github/Frontend-knowledge-system' },
     ],
@@ -28,7 +29,9 @@ module.exports = {
           title: 'CSS',
           collapsable: false,
           children: [
-            ''
+            'text',
+            'size',
+            'selector'
           ]
         }
       ],
